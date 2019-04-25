@@ -12,33 +12,69 @@
 
 .list-container{
     width: 100%;
+    /* height: 20rem; */
     /* max-height: 100px; */
     /* border: 1px solid red; */
 }
 
 .list-content{
-    width: 100%;
+    width: 80%;
     padding-left: 3rem;
+    margin-left: 4.5rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     font-size: 1.5rem;
+    /* border: 1px solid red; */
 }
 
 .complete {
-    width: 30%;
+    width: 40%;
+    margin-left: 2rem;
     text-align: center;
-    color: green;
-    background-color: silver;
+    color: red;
+    /* background-color: silver; */
     text-decoration: line-through;
-    text-decoration-color: orange;
+    text-decoration-color: beige;
     text-decoration-style: double;
+    /* border: 1px solid red; */
 }
 
 .not-complete {
-    width: 30%;
+    width: 40%;
+    margin-left: 2rem;
     text-align: center;
-    color: #FF7F50 /* coral */;
+    color: green;
+    /* background-color: beige; */
     /* border: 1px solid red; */
 
+}
+
+/* form */
+.form-section{
+    border-top: 2px solid blue;
+}
+
+.input-1{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.buttons{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.b-1{
+
+    color: green; 
+    background-color: beige;
+}
+.b-2{
+    color: red; 
+    background-color: silver;
 }
