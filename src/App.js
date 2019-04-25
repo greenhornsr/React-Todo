@@ -80,13 +80,12 @@ class App extends React.Component {
     return (
       <div className="container">
         <h2>Welcome to your Todo App!</h2>
-        <section className="list-container">
-          <TodoList todoList={this.state.todoList} toggleCompleted={this.toggleCompleted} />
-        </section>
         <section>
           <TodoForm todoForm={this.state.todoElements} handleChanges={this.handleChanges} addTask={this.addTask} removeSelected={this.removeSelected} />
         </section>
-        
+        <section className="list-container">
+          <TodoList todoList={this.state.todoList} toggleCompleted={this.toggleCompleted} />
+        </section>
       </div>
     );
   }
