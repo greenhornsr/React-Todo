@@ -5,9 +5,9 @@ import Todo from './Todo'
 // feel free to change this component.js into TodoList.js
 const TodoList = (props) => {
     return (
-        <section>
+        <section className="list-content">
             {props.todoList.map(todo => {
-                return <Todo todo={todo} key={props.task}/>
+                return <Todo todo={todo} key={todo.id} toggleCompleted={props.toggleCompleted} />
             })}
         </section>
     )
